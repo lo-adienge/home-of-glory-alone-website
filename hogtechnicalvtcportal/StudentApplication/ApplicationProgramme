@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en" dir=>
+<head>
+    <meta charset="utf-8" />
+    <title>Bureti Training Institute Portal </title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+    <meta content="SchoolPortal" name="description" />
+    <meta content="SchoolPortal" name="keywords">
+    <meta content="SchoolPortal" name="author" />
+
+    <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
+
+    <link rel="stylesheet" href="/view-resources/Areas/AppAdmin/Views/_Bundles/vendors.bundle.min.css?v=2zkrVxM2_Xwdok55unmDxsqqV9SqS-aeF-RvnSXbJGc" />
+    <link rel="stylesheet" href="/metronic/themes/default/css/style.bundle.css?v=aznTyBAEqu8CUjoTArLlj8ZsfPFFsI13zp6f6cIdhiM" />
+    <link rel="stylesheet" href="/view-resources/Areas/AppAdmin/Views/_Bundles/account-layout-libs.min.css?v=A8PyzqhRuglu-dEFcHKUch8eFZz2vKBmQ4Ga74V-Ox4" />
+
+
+    <link rel="stylesheet" href="/view-resources/Areas/AppAdmin/Views/_Bundles/app-layout-libs.min.css?v=6lMS99ruzvDask90MqBR0tts_0mg5Aa2C3h0GbcO8Ek" />
+    <link rel="stylesheet" href="/view-resources/Areas/AppAdmin/Views/_Bundles/common-styles.min.css?v=43KHcPr6BRPOucCIuls9kSAG2l7Bv84djumxlVdjL80" />
+    <link rel="stylesheet" href="/Common/Scripts/Datatables/datatables.min.css?v=I7tKZ4kl4GQZ4JblmZ1pZuIOyfTLKkAreXaHi_IL7dM" />
+    <link rel="stylesheet" href="/Common/Styles/metronic-customize.min.css?v=BAJ1c5x7Ov3VzhpWsPjhFYtjadtbxi85P6LcnSU6x2E" />
+
+
+
+    <link rel="stylesheet" href="/view-resources/Views/Account/_Layout.min.css?v=JygR9mLDHesjLKAnrEis8gO24xHkJxlDD-z4RrpuApY" />
+
+
+
+    <style>
+        @media (min-width: 992px) {
+            .login.login-1 .login-aside {
+                width: 100%;
+                max-width: 800px;
+            }
+
+            .login.login-1 .login-content {
+                width: 100%;
+                max-width: 700px;
+            }
+
+                .login.login-1 .login-content .login-form {
+                    width: 100%;
+                    max-width: 650px;
+                }
+        }
+
+        @media (min-width: 992px) and (max-width: 1399.98px) {
+            .login.login-1 .login-aside {
+                width: 100%;
+                max-width: 650px;
+            }
+        }
+
+        @media (max-width: 991.98px) {
+            .login.login-1 .login-content .login-form {
+                width: 100%;
+                max-width: 600px;
+            }
+        }
+
+        @media (max-width: 575.98px) {
+            .login.login-1 .aside-img {
+                min-height: 300px !important;
+                background-size: 100%;
+            }
+
+            .login.login-1 .login-content .login-form {
+                width: 100%;
+                max-width: 100%;
+            }
+        }
+
+        .pt-15,
+        .py-15 {
+            padding-top: 0rem !important;
+        }
+
+        .pt-lg-40,
+        .py-lg-40 {
+            padding-top: 0rem !important;
+        }
+    </style>
+    
+
+
+    <link rel="stylesheet" href="/Common/Styles/Themes/default/metronic-customize.min.css?v=BzYqvakvcImYUoEvjK8TVmv9N3fTQv9F6x26OdoH5Gg" />
+    <link rel="stylesheet" href="/metronic/assets/plugins/custom/datatables/datatables.bundle.css?v=h5kRipgSPj-u6UUd-K5SpofWCrPXFo4xQ--4OdJ60BQ" />
+    <style>
+
+        .login .content {
+            width: 100%;
+        }
+    </style>
+
+    <style>
+        @media (min-width: 992px) {
+            .login.login-1 .login-aside {
+                width: 100%;
+                max-width: 100%;
+            }
+
+            .login.login-1 .login-content {
+                width: 100%;
+                max-width: 100%;
+            }
+
+                .login.login-1 .login-content .login-form {
+                    width: 100%;
+                    max-width: 100%;
+                }
+        }
+
+        @media (min-width: 992px) and (max-width: 1399.98px) {
+            .login.login-1 .login-aside {
+                width: 100%;
+                max-width: 100%;
+            }
+        }
+
+        @media (max-width: 991.98px) {
+            .login.login-1 .login-content .login-form {
+                width: 100%;
+                max-width: 100%;
+            }
+        }
+
+        @media (max-width: 575.98px) {
+            .login.login-1 .aside-img {
+                min-height: 300px !important;
+                background-size: 100%;
+            }
+
+            .login.login-1 .login-content .login-form {
+                width: 100%;
+                max-width: 100%;
+            }
+        }
+
+        .pt-15,
+        .py-15 {
+            padding-top: 0rem !important;
+        }
+
+        .pt-lg-40,
+        .py-lg-40 {
+            padding-top: 0rem !important;
+        }
+    </style>
+
+    <script type="text/javascript">
+        var abp = abp || {}; abp.appPath = '/';
+    </script>
+
+</head>
+<body class="header-fixed header-mobile-fixed subheader-enabled subheader-fixed aside-enabled aside-fixed aside-minimize-hoverable">
+    <!-- begin:: Page -->
+    <!--begin::Aside-->
+    <div class="login-aside d-flex flex-column flex-row-auto" style="background-color: #FAEA9D;">
+        <!--begin::Aside Top-->
+        <div class="d-flex flex-column-auto flex-column pt-lg-40 pt-15">
+            <!--begin::Aside header-->
+            <a href="/" class="text-center mb-10">
+                <img src="https://buretittiportal.ac.ke/assets/logo/bureti_logo2.jpeg" alt="" class="max-h-70pxs" width="220" height="200">
+            </a>
+            <!--end::Aside header-->
+            <!--begin::Aside title-->
+            <h3 class="font-weight-bolder text-center font-size-h4 font-size-h1-lg" style="color:  #000;">
+                <b>BURETI TECHNICAL TRAINING INSTITUTE</b>  PORTAL
+            </h3>
+            <!--end::Aside title-->
+        </div>
+        <!--end::Aside Top-->
+        <!--begin::Aside Bottom-->
+        <!--end::Aside Bottom-->
+    </div>
+    <!--begin::Aside-->
+
+
+    <div class="d-flex flex-column flex-root">
+        <div class="login login-1 login-signin-on d-flex flex-column flex-lg-row flex-column-fluid bg-white" id="kt_login">
+
+
+            <!--begin::Content-->
+            <div class="login-content flex-row-fluid d-flex flex-column justify-content-center position-relative overflow-hidden p-7 mx-auto">
+                <div class="d-flex flex-column-fluid flex-center">
+                    <!--begin::Signin-->
+                    <div class="login-form login-signin">
+                        <div class="pb-13 pt-lg-0 pt-5">
+                        </div>
+                        <!--begin::Form-->
+                        
+
+
+<div class="d-flex flex-column flex-column-fluid">
+
+
+
+    <div class="container-fluid" style=" background-color: #eceef1;">
+        <div class="card card-custom gutter-b">
+            <div class="card-body">
+                <div class="form">
+                    <div class="row align-items-center mb-4">
+                        <div class="col-xl-12">
+                            <div class="form-group align-items-center">
+                                <div class="input-group">
+                                    <input type="text" id="ProgrammeListsTableFilter" class="form-control m-input" placeholder="Search...">
+                                    <span class="input-group-btn">
+                                        <button id="GetProgrammeListsButton" class="btn btn-primary" type="submit"><i class="flaticon-search-1"></i></button>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row align-items-center">
+                    <table id="ProgrammeListsTable" class="display table table-striped table-bordered table-hover dt-responsive ">
+                        <thead>
+                            <tr>
+                                <th>Actions</th>
+                                <th>Names</th>
+                                <th>Department</th>
+                                <th>Grade Type</th>
+                                <th>Period</th>
+
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                        <!--end::Form-->
+                    </div>
+                </div>
+                <div class="d-flex justify-content-lg-start justify-content-center align-items-end py-7 py-lg-0">
+                </div>
+            </div>
+            <!--end::Content-->
+        </div>
+    </div>
+
+    <script src="/view-resources/Areas/AppAdmin/Views/_Bundles/app-layout-libs.min.js?v=LS2NdezrsxpOv5icxEudB6Z7XPOj5QLTXTVm3HfKlrU"></script>
+    <script src="/view-resources/Areas/AppAdmin/Views/_Bundles/default-scripts.bundle.min.js?v=Vo-8oZbeXn4QqQys1UTvaGVifSSAE5ScG_z4j2WWRuI"></script>
+
+    <!--begin::Base Scripts -->
+    <!-- Dynamic scripts of ABP system (They are created on runtime and can not be bundled) -->
+    <script src="/AbpServiceProxies/GetAll?v=638289059226438475" type="text/javascript"></script>
+    <script src="/AbpScripts/GetScripts?v=638289059226438475" type="text/javascript"></script>
+
+    <script src="/view-resources/Areas/AppAdmin/Views/_Bundles/common-scripts.min.js?v=4LDTXUCVA1OmM_tS-v0udj6NhCc-c75XCD4_2INdPGM"></script>
+    <script src="/view-resources/Areas/AppAdmin/Views/_Bundles/app-common-scripts.min.js?v=zigE0MqlmxCeqWfoANFmNP8fzPNaMjknfQTdPs2PDQ4"></script>
+    <script src="/view-resources/Areas/AppAdmin/Views/Layout/_Layout.min.js?v=WtrJyJ06OQgKB3RSjjz4N3JEJ8QZRHutTbWCNarQcA0"></script>
+    <script src="/Common/Scripts/_empty.js?v=isgDm5cvwsn7DijLmK70kulNBy7zoZJxwXWFI9eTd2o"></script>
+    <script src="/lib/bootstrap-select/dist/js/i18n/defaults-en_US.js?v=_N_bJO3pezCX_0P9FezNZE2FvOZRO1pTI27hCenHknc"></script>
+    <!--begin::Page Snippets -->
+    
+
+    <script src="/metronic/themes/default/js/settings.js?v=uGCJtPMbtAoGekoNPackUzfqhv9bmQXIQqNExajSplI"></script>
+    <script src="/view-resources/Areas/AppAdmin/Views/ApplicationLists/ApplicationProgramme.js?v=9tfFYdOE2WwDBz9-y_4fY425U97XU9lF1h3mf11BGZI"></script>
+
+
+
+    <script>
+        app.supportsTenancyNameInUrl = false;
+
+        jQuery(document).ready(function () {
+            if (window.CurrentPage) {
+                CurrentPage.init();
+            }
+        });
+    </script>
+</body>
+</html>

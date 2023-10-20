@@ -1,0 +1,198 @@
+
+
+<!DOCTYPE html>
+<html lang="en" dir=>
+<head>
+    <meta charset="utf-8" />
+    <title>Bureti Training Institute Portal </title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+
+<title></title>
+<meta name='description' content=''/>
+<meta name='keywords' content =''/>
+    <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
+
+    <link rel="stylesheet" href="/view-resources/Areas/AppAdmin/Views/_Bundles/vendors.bundle.min.css?v=2zkrVxM2_Xwdok55unmDxsqqV9SqS-aeF-RvnSXbJGc" />
+    <link rel="stylesheet" href="/metronic/themes/default/css/style.bundle.css?v=aznTyBAEqu8CUjoTArLlj8ZsfPFFsI13zp6f6cIdhiM" />
+    <link rel="stylesheet" href="/view-resources/Areas/AppAdmin/Views/_Bundles/account-layout-libs.min.css?v=A8PyzqhRuglu-dEFcHKUch8eFZz2vKBmQ4Ga74V-Ox4" />
+
+    <link rel="stylesheet" href="/view-resources/Areas/AppAdmin/Views/_Bundles/common-styles.min.css?v=43KHcPr6BRPOucCIuls9kSAG2l7Bv84djumxlVdjL80" />
+
+    <style>
+        a {
+            color: #C0DDCF;
+
+        }
+        .btn.btn-primary {
+
+            background-color: #C0DDCF;
+
+        }
+
+        .text-primary {
+            color: #C0DDCF !important;
+        }
+    </style>
+
+
+    <link rel="stylesheet" href="/view-resources/Views/Account/_Layout.min.css?v=JygR9mLDHesjLKAnrEis8gO24xHkJxlDD-z4RrpuApY" />
+
+    
+    <link href="/metronic/common/css/login-1.css" rel="stylesheet"/>
+
+
+    <script type="text/javascript">
+        var abp = abp || {}; abp.appPath = '/';
+    </script>
+
+</head>
+<body class="header-fixed header-mobile-fixed subheader-enabled subheader-fixed aside-enabled aside-fixed aside-minimize-hoverable">
+    <!-- begin:: Page -->
+    <div class="d-flex flex-column flex-root">
+        <div class="login login-1 login-signin-on d-flex flex-column flex-lg-row flex-column-fluid bg-white" id="kt_login">
+            <!--begin::Aside-->
+            <div class="login-aside d-flex flex-column flex-row-auto" style="        background-color: #FAEA9D;">
+                <!--begin::Aside Top-->
+                <div class="d-flex flex-column-auto flex-column pt-lg-40 pt-15">
+                    <!--begin::Aside header-->
+                    <a href="/" class="text-center mb-10">
+
+                        <img alt="Logo" src="https://buretittiportal.ac.ke/assets/logo/bureti_logo2.jpeg" height="220" width="220"
+                             class="max-h-70pxs" />
+                    </a>
+                    <!--end::Aside header-->
+                    <!--begin::Aside title-->
+                    <h3 class="font-weight-bolder text-center font-size-h4 font-size-h1-lg" style="color:  #000;">
+                        <b>BURETI TECHNICAL TRAINING INSTITUTE</b>  PORTAL
+                    </h3>
+                    <!--end::Aside title-->
+                </div>
+                <!--end::Aside Top-->
+
+            </div>
+            <!--begin::Aside-->
+            <!--begin::Content-->
+            <div class="login-content flex-row-fluid d-flex flex-column justify-content-center position-relative overflow-hidden p-7 mx-auto">
+                <div class="d-flex flex-column-fluid flex-center">
+                    <!--begin::Signin-->
+                    <div class="login-form login-signin">
+                        <div class="pb-13 pt-lg-0 pt-5">
+                        </div>
+                        <!--begin::Form-->
+                        
+
+
+
+
+<!--begin::Signin-->
+<div class="login-form">
+    <div class="pb-13 pt-lg-0 pt-5">
+        <h3 class="font-weight-bolder text-dark font-size-h4 font-size-h1-lg">Log in</h3>
+    </div>
+    <!--begin::Form-->
+    <form class="login-form form" method="post" action="/Account/Login">
+        <input type="hidden" name="returnUrl" value="/AppAdmin"/>
+        <input type="hidden" name="returnUrlHash"/>
+        <input type="hidden" name="ss" value=""/>
+
+        <div class="form-group">
+            <input class="form-control form-control-solid h-auto py-7 px-6 rounded-lg font-size-h6" type="text" placeholder="User name or email" name="usernameOrEmailAddress" autocomplete="new-password" value="" required>
+        </div>
+
+        <div class="form-group">
+            <input class="form-control form-control-solid h-auto py-7 px-6 rounded-lg font-size-h6" type="password" placeholder="Password" name="password" autocomplete="new-password">
+        </div>
+
+        <div class="form-group d-flex justify-content-between mt-4">
+            <label class="checkbox checkbox-outline">
+                <input type="checkbox" name="rememberMe" value="true"> Remember me
+                <span>
+                </span>
+            </label>
+            <a href="/Account/ForgotPassword" id="forget-password" class="text-primary font-size-h6 font-weight-bolder text-hover-primary">Forgot password?</a>
+        </div>
+
+        <!--begin::Action-->
+        <div class="pb-lg-0 pb-5">
+            <button type="button" id="kt_login_signin_submit" class="btn btn-block btn-primary font-weight-bolder font-size-h6 px-8 py-4 my-3 mr-3">Log in</button>
+        </div>
+
+        <!--end::Action-->
+    <input name="__RequestVerificationToken" type="hidden" value="CfDJ8LYqpH0RqGBHvXXY2F5YiN2Ir6kxr0biwbl7wDvJiWOGYY_X3HzUUjCJRxNjiqdLlHL5GD7VfGYs4maw7capxjPHGH160AI_glb9MGnkKOf9yiVMIbgNawLCOrdTC2T9QwACzBi6qNbBnIBtpJc8OcQ" /></form>
+
+    <!--end::Form-->
+
+    <!--begin::Options-->
+
+    <!--end::Options-->
+</div>
+
+<div class="mt-5">
+    <div>
+
+    </div>
+<div class="row">
+    <div class="col">
+        <span>Not yet Registered ?</span>
+    </div>
+    <div class="col">
+        <a href="/Account/Register?returnUrl=%2FAppAdmin" id="register-btn">Sign Up</a>
+        <span class="pipe-divider"> | </span>
+        <a href="/Account/EmailActivation" id="email-activation-btn">Email activation</a>
+    </div>
+
+
+</div>
+
+
+<a href="/Account/StudentLetterOfOffer?returnUrl=%2FAppAdmin" id="letter-of-offer-btn">Download Admission Letter</a>
+                <span class="pipe-divider"> | </span>
+                                <a href="/StudentApplication/ApplicationProgramme?returnUrl=%2FAppAdmin" id="letter-of-offer-btn">Courses Offered</a>
+                                                <span class="pipe-divider"> | </span>
+<a href="/Account/StudentApplication?returnUrl=%2FAppAdmin" id="register-btn">Course Application</a>
+                <span class="pipe-divider"> | </span>
+
+
+
+
+
+            </div>
+
+                        <!--end::Form-->
+                    </div>
+                </div>
+                <div class="d-flex justify-content-lg-start justify-content-center align-items-end py-7 py-lg-0">
+                </div>
+            </div>
+            <!--end::Content-->
+        </div>
+    </div>
+    <!--begin::Base Scripts -->
+    <script src="/view-resources/Areas/AppAdmin/Views/_Bundles/account-layout-libs.min.js?v=-SWx5kK8Kbd7LSZ_zUH-lncp1IFMxsJPEYWwZkZLBZc"></script>
+
+    <!-- Dynamic scripts of ABP system (They are created on runtime and can not be bundled) -->
+    <script src="/AbpServiceProxies/GetAll?v=638289059226438475" type="text/javascript"></script>
+    <script src="/AbpScripts/GetScripts?v=638289059226438475" type="text/javascript"></script>
+
+    <script src="/view-resources/Areas/AppAdmin/Views/_Bundles/common-scripts.min.js?v=4LDTXUCVA1OmM_tS-v0udj6NhCc-c75XCD4_2INdPGM"></script>
+    <script src="/Common/Scripts/_empty.js?v=isgDm5cvwsn7DijLmK70kulNBy7zoZJxwXWFI9eTd2o"></script>
+
+    
+
+    
+    <script src="/view-resources/Views/Account/Login.min.js?v=3td2v-5XmZuBslBimU_Zjtmk2SMb_NPN17ft2QRBx_k"></script>
+
+    <script>
+        app.supportsTenancyNameInUrl = false;
+
+        jQuery(document).ready(function () {
+            if (window.CurrentPage) {
+                CurrentPage.init();
+            }
+        });
+    </script>
+</body>
+</html>
